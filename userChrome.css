@@ -1,0 +1,54 @@
+/*
+ * Top Bar
+ */
+#TabsToolbar {
+	visibility: collapse;
+}
+
+/* shorten the title bar */
+#nav-bar {
+	margin-top: -3px;
+	z-index: 1;
+}
+
+
+/* Workaround for button icons, no longer necessary (plus it breaks them a little) */
+/*
+.titlebar-button {
+	max-height: 19px;
+	background-size: 30%;
+	background-position: center;
+	background-repeat: no-repeat;
+	list-style-image:none !important;
+}
+*/
+
+/* Redefine them as background-images */
+/*
+.titlebar-min {
+	background-image: url(chrome://browser/skin/window-controls/minimize.svg);
+}
+
+.titlebar-max {
+	background-image: url(chrome://browser/skin/window-controls/maximize.svg);
+}
+
+.titlebar-close {
+	background-image: url(chrome://browser/skin/window-controls/close.svg);
+}
+*/
+
+
+/*
+ * Side Bar
+ */
+#sidebar-header {
+	visibility: collapse;
+}
+
+/*
+ * make Bookmark bar font white
+ */
+#PersonalToolbar {
+	--toolbar-color: white;
+}
