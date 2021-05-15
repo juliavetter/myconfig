@@ -1,0 +1,11 @@
+.sni h1 {
+	visibility: collapse;
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#i2 {
+    visibility: collapse;
+    height: 0px;
+}
