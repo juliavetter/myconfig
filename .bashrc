@@ -83,9 +83,14 @@ shopt -s histappend
 #don't put duplicate lines or lines starting with space in the history
 #HISTCONTROL=ignoreboth
 
+#change cursor to unblinking full block in tty
+if [ $XDG_SESSION_TYPE = tty ]; then
+ echo -e "\e[?16;7;112c"
+fi
+
 # Aliases in separate file
 if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+  . ~/.bash_aliases
 fi
 
 # Functions in separate file
