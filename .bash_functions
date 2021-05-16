@@ -30,3 +30,5 @@ colors() {
 connectbandit() {
   sshpass -f $1 ssh bandit${1}@bandit.labs.overthewire.org -p 2220
 }
+
+# vim: set ft=bash
