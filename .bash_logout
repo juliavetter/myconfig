@@ -7,4 +7,4 @@ if [ $XDG_SESSION_TYPE = tty ]; then
   tput cnorm
 fi
 
-# vim: set ft=bash
+# vim: set ft=bash:

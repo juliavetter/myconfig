@@ -16,4 +16,7 @@ set ruler
 set number
 set showcmd
 
+set modeline
+set modelines=5
+
 syntax on
