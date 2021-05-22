@@ -1,0 +1,8 @@
+:root{
+	/* scrollbar-color takes two colors as values */ 
+	/* grey bar, transparent background */
+	scrollbar-color: rgb(144,144,144) rgba(0,0,0,0);
+	/* width can be set as thin, none, auto, or some px */
+	/* some settings may not be implemented or are platform-dependent */
+	scrollbar-width: auto;
+}
