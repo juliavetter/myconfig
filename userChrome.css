@@ -52,3 +52,13 @@
 #PersonalToolbar {
 	--toolbar-color: white;
 }
+
+/* For use with linux to make the sidebar splitter not blinding */
+#sidebar-splitter {
+  background-color: rgb(60, 60, 60) !important;
+  border-color: rgb(60, 60, 60) !important;
+  width: 4px;
+}
+
+/* In ctrl-f menu, move close button to right side */
+#findbar-close-container { -moz-box-ordinal-group: 0 !important; }
