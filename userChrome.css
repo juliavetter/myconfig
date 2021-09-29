@@ -2,7 +2,7 @@
  * Top Bar
  */
 #TabsToolbar {
-	visibility: collapse;
+	visibility: collapse !important;
 }
 
 /* shorten the title bar */
