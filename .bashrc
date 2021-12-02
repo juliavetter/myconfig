@@ -97,3 +97,5 @@ fi
 if [ -f ~/.bash_functions ]; then
   . ~/.bash_functions
 fi
+
+PATH="$PATH:$HOME/.opam/default/bin"
