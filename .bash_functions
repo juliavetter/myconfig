@@ -31,4 +31,13 @@ connectbandit() {
   sshpass -f $1 ssh bandit${1}@bandit.labs.overthewire.org -p 2220
 }
 
+pamac() {
+    if [ "$1" = "upgrade" -o "$1" = "update" ]; then
+        shift
+        command pamac upgrade -a "$@"
+    else
+        command pamac "$@"
+    fi
+}
+
 # vim: set ft=bash:
