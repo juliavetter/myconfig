@@ -2,7 +2,7 @@
 # ~/.bashrc
 #
 
-[[ $- != *i* ]] && return
+[[ "$-" != *i* ]] && return
 
 [ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
 
@@ -42,7 +42,7 @@ if ${use_color} ; then
 		fi
 	fi
 
-	if [[ ${EUID} == 0 ]] ; then
+	if [[ "${EUID}" == 0 ]] ; then
 		PS1='\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]\$ '
 	else
 		PS1='\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\W\[\033[0m\]\$ '
@@ -54,7 +54,7 @@ if ${use_color} ; then
 	alias fgrep='fgrep --colour=auto'
 else
   # noncolorful prompt
-	if [[ ${EUID} == 0 ]] ; then
+	if [[ "${EUID}" == 0 ]] ; then
 		PS1='\u@\h \W \$ '
 	else
 		PS1='\u@\h \w \$ '
@@ -79,7 +79,7 @@ shopt -s histappend
 #HISTCONTROL=ignoreboth
 
 #change cursor to unblinking full block in tty
-if [ $XDG_SESSION_TYPE = tty ]; then
+if [ "$XDG_SESSION_TYPE" = tty ]; then
  echo -e "\e[?16;7;112c"
 fi
 
