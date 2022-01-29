@@ -94,3 +94,6 @@ if [ -f ~/.bash_functions ]; then
 fi
 
 PATH="$PATH:$HOME/.opam/default/bin"
+
+USE_CCACHE=1
+NDK_CCACHE="$HOME/.cache/ccache"
