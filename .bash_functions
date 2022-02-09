@@ -40,4 +40,16 @@ pamac() {
     fi
 }
 
+treesize() {
+    local DIR
+    DIR=${cwd}
+    if [ -n "$1" ]; then
+        if [ ! -e "$1" ]; then
+            echo "cannot open '$1' (no such file or directory)"
+        fi
+        DIR=$1
+    fi
+    du $DIR -ah --threshold=32K --max-depth=1 2>/dev/null | sort -hr
+}
+
 # vim: set ft=bash:
