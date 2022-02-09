@@ -16,4 +16,7 @@ alias starthamachi='systemctl start logmein-hamachi.service'
 alias catamake='make -j5 CCACHE=1 TILES=1 RELEASE=1'
 alias catamake1='make CCACHE=1 TILES=1 RELEASE=1'
 
+# angband curses mode
+alias angband='angband -mgcu -- -n2'
+
 # vim: set ft=bash
