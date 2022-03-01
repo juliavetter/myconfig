@@ -80,7 +80,7 @@ shopt -s histappend
 
 #change cursor to unblinking full block in tty
 if [ "$XDG_SESSION_TYPE" = tty ]; then
- echo -e "\e[?16;7;112c"
+ echo -ne "\e[?16;7;112c"
 fi
 
 # Aliases in separate file
