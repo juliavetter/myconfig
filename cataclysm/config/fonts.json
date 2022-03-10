@@ -1,5 +1,5 @@
 {
-  "typeface":         [ "font/Inconsolata-SemiBold.ttf" ],
-  "map_typeface":     [ "font/Inconsolata-SemiBold.ttf" ],
-  "overmap_typeface": [ "font/Inconsolata-SemiBold.ttf" ]
+  "typeface":         [ "font/DejaVuSansMono.ttf" ],
+  "map_typeface":     [ "font/DejaVuSansMono.ttf" ],
+  "overmap_typeface": [ "font/DejaVuSansMono.ttf" ]
 }
