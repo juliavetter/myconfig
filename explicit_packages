@@ -1,0 +1,65 @@
+This is a list of explicitly installed packages I use on an Arch installation.
+It may be helpful to you or to me in the future.
+
+
+BASE-DEVEL GROUP
+XFCE4 GROUP
+XORG GROUP
+
+base (obviously)
+
+adobe-source-han-sans-jp-fonts (japanese font)
+dhcpcd (dhcp daemon)
+discord
+efibootmgr (do not delete! handles UEFI booting)
+firefox
+file-roller (gui archive manager)
+galculator
+gcc
+gimp
+git
+gparted
+grub
+gst-plugins-* (A/V codecs)
+htop
+kvantum (qt theming)
+linux
+linux-firmware
+lsb-release (required for steam but explicit?)
+lynx (essential for when you are kicked into emergency shell)
+man-db
+man-pages
+neofetch
+network-manager-applet
+networkmanager
+nicotine+ (slsk client)
+noto-fonts
+ntfs-3g (ntfs support)
+nvidia
+openssh
+papirus-icon-theme
+pavucontrol (audio mixer)
+redshift
+steam
+stone-soup (roguelike)
+strawberry
+sudo
+texinfo (gnu man pages)
+tree
+ttf-liberation (fixes steam font rendering)
+vim
+xf86-video-vesa (generic video driver)
+
+
+AUR:
+adom
+angband-git
+discover-overlay (discord overlay)
+ksuperkey (fix super key for xfce whisker menu)
+matcha-gtk-theme
+ncurses5-compat-libs (maybe required for some old roguelikes)
+sil-q
+sotw (shadow of the wyrm)
+xfce4-multiload-ng-plugin (panel applet to display system load)
+yay-bin (package manager, supports AUR)
+zoom
