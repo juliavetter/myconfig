@@ -75,9 +75,6 @@ shopt -s expand_aliases
 # Enable history appending instead of overwriting.  #139609
 shopt -s histappend
 
-#don't put duplicate lines or lines starting with space in the history
-#HISTCONTROL=ignoreboth
-
 #change cursor to unblinking full block in tty
 if [ "$XDG_SESSION_TYPE" = tty ]; then
  echo -ne "\e[?16;7;112c"
@@ -93,7 +90,6 @@ if [ -f ~/.bash_functions ]; then
   . ~/.bash_functions
 fi
 
-PATH="$PATH:$HOME/.opam/default/bin"
+export EDITOR="vim"
+export QT_STYLE_OVERRIDE="kvantum"
 
-USE_CCACHE=1
-NDK_CCACHE="$HOME/.cache/ccache"

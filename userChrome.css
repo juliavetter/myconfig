@@ -6,10 +6,12 @@
 }
 
 /* shorten the title bar */
+/*
 #nav-bar {
 	margin-top: -3px;
 	z-index: 1;
 }
+*/
 
 
 /* Workaround for button icons, no longer necessary (plus it breaks them a little) */
