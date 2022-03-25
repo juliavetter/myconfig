@@ -9,6 +9,7 @@ XORG GROUP
 base (obviously)
 
 adobe-source-han-sans-jp-fonts (japanese font)
+xdg-desktop-portal-kde (icon file picker)
 dhcpcd (dhcp daemon)
 discord
 efibootmgr (do not delete! handles UEFI booting)
