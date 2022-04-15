@@ -52,6 +52,7 @@ if ${use_color} ; then
 	alias grep='grep --colour=auto'
 	alias egrep='egrep --colour=auto'
 	alias fgrep='fgrep --colour=auto'
+	alias tree='tree -C'
 else
   # noncolorful prompt
 	if [[ "${EUID}" == 0 ]] ; then
