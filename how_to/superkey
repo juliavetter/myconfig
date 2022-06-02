@@ -1,0 +1,8 @@
+How to make the whisker menu on XFCE open by pressing the super key
+
+https://bbs.archlinux.org/viewtopic.php?id=255370
+
+TLDR: install AUR package ksuperkey
+
+If not on arch, install:
+https://github.com/hanschen/ksuperkey
