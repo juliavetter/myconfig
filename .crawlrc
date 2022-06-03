@@ -1,0 +1,15 @@
+# curses window size
+# default 33, max 81
+view_max_width = 80
+# default 21, max 71
+view_max_height = 35
+
+# tiles scaling
+tile_cell_pixels = 48
+tile_font_crt_size = 20
+tile_font_stat_size = 20
+tile_font_msg_size = 20
+tile_font_tip_size = 20
+tile_font_lbl_size = 20
+tile_map_pixels = 0
+tile_filter_scaling = true
