@@ -13,12 +13,11 @@ alias occs='ssh kvetter@occs.cs.oberlin.edu'
 alias starthamachi='systemctl start logmein-hamachi.service'
 
 # cataclysm development aliases
-alias catamake='make -j5 CCACHE=1 TILES=1 RELEASE=1'
-alias catamake1='make CCACHE=1 TILES=1 RELEASE=1'
+alias catamake='make -j10 CCACHE=1 TILES=1 RELEASE=1 RUNTESTS=0'
 
 # angband curses mode
-alias angband='angband -mgcu -- -n2'
-# top right for equipment (13), next for inventory (26), rest for whatever
-alias frogcomposband='frogcomposband -mgcu -- -right 57x13,26,*'
+# top right for minimap, then for nearby monsters, then for monster recall
+alias angband='angband -mgcu -- -right 57x25,10,*'
+alias frogcomposband='frogcomposband -mgcu -- -right 57x13,15,*'
 
 # vim: set ft=bash
