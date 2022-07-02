@@ -1,0 +1,110 @@
+[
+  {
+    "id": "my_health_layout",
+    "type": "widget",
+    "style": "layout",
+    "label": "My Health",
+    "arrange": "columns",
+    "widgets": [ "lcla_health_overmap", "lcla_health_left_layout", "lcla_health_mid_layout", "lcla_health_right_layout" ]
+  },
+  {
+    "id": "my_date_time",
+    "type": "widget",
+    "label": "My Date/Time",
+    "style": "layout",
+    "arrange": "columns",
+    "widgets": [ "date_desc_label", "time_desc_label" ]
+  },
+  {
+    "id": "my_weather_lighting",
+    "type": "widget",
+    "style": "layout",
+    "label": "My Weather/Lighting",
+    "arrange": "columns",
+    "widgets": [ "weather_desc", "lighting_desc" ]
+  },
+  {
+    "id": "my_temp_desc",
+    "type": "widget",
+    "style": "text",
+    "label": "Temp",
+    "var": "env_temp_text"
+  },
+  {
+    "id": "my_temp_moon",
+    "type": "widget",
+    "style": "layout",
+    "label": "My Temp/Moon",
+    "arrange": "columns",
+    "widgets": [ "my_temp_desc", "moon_phase_desc" ]
+  },
+  {
+    "id": "my_weapon_style",
+    "type": "widget",
+    "style": "layout",
+    "label": "My Weapon/Style",
+    "arrange": "columns",
+    "widgets": [ "wielding_desc", "style_desc" ]
+  },
+  {
+    "id": "my_vehicle_azimuth",
+    "type": "widget",
+    "style": "text",
+    "label": "Azimuth",
+    "var": "veh_azimuth_text"
+  },
+  {
+    "id": "my_vehicle_speed",
+    "type": "widget",
+    "style": "text",
+    "label": "Speed",
+    "var": "veh_cruise_text"
+  },
+  {
+    "id": "my_vehicle_fuel",
+    "type": "widget",
+    "style": "text",
+    "label": "Fuel",
+    "var": "veh_fuel_text"
+  },
+  {
+    "id": "my_vehicle_layout",
+    "type": "widget",
+    "style": "layout",
+    "label": "My Vehicle",
+    "arrange": "columns",
+    "widgets": [ "my_vehicle_azimuth", "my_vehicle_fuel" ]
+  },
+  {
+    "id": "my_speed_wind",
+    "type": "widget",
+    "style": "layout",
+    "label": "My Speed/Wind",
+    "arrange": "columns",
+    "widgets": [ "my_vehicle_speed", "wind_desc" ]
+  },
+  {
+    "id": "custom_sidebar",
+    "type": "widget",
+    "style": "sidebar",
+    "label": { "str": "custom", "ctxt": "UI sidebar" },
+    "width": 44,
+    "separator": ": ",
+    "padding": 2,
+    "widgets": [
+      "my_health_layout",
+      "ll_movement_layout",
+      "all_weariness_layout",
+      "my_date_time",
+      "my_weather_lighting",
+      "my_temp_moon",
+      "my_vehicle_layout",
+      "my_speed_wind",
+      "my_weapon_style",
+      "rad_badge_desc",
+      "compass_all_layout",
+      "compass_all_alt_layout",
+      "vital_numbers_layout"
+    ]
+  }
+]
