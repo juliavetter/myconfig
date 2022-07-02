@@ -32,3 +32,5 @@ function! SetupPython()
 	setlocal noexpandtab
 endfunction
 command! -bar SetupPython call SetupPython()
+
+set listchars=eol:$,tab:>-,extends:>,precedes:<,space:·
