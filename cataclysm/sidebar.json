@@ -47,13 +47,6 @@
     "widgets": [ "wielding_desc", "style_desc" ]
   },
   {
-    "id": "my_vehicle_azimuth",
-    "type": "widget",
-    "style": "text",
-    "label": "Azimuth",
-    "var": "veh_azimuth_text"
-  },
-  {
     "id": "my_vehicle_speed",
     "type": "widget",
     "style": "text",
@@ -73,7 +66,7 @@
     "style": "layout",
     "label": "My Vehicle",
     "arrange": "columns",
-    "widgets": [ "my_vehicle_azimuth", "my_vehicle_fuel" ]
+    "widgets": [ "my_vehicle_speed", "my_vehicle_fuel" ]
   },
   {
     "id": "my_speed_wind",
@@ -103,7 +96,6 @@
       "my_weapon_style",
       "rad_badge_desc",
       "compass_all_layout",
-      "compass_all_alt_layout",
       "vital_numbers_layout"
     ]
   }
