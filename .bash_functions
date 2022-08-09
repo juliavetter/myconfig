@@ -52,4 +52,12 @@ treesize() {
     du $DIR -ah --threshold=32K --max-depth=1 2>/dev/null | sort -hr
 }
 
+searchpath() {
+    local path
+    path="${PATH//:/$'\n'}"
+    for dir in $path; do
+        find "$dir" -iname "*$1*" 2>/dev/null
+    done
+}
+
 # vim: set ft=bash:
