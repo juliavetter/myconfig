@@ -1,5 +1,6 @@
 Install xdg-desktop-portal-kde
 Install breeze (for icons)
+Install dolphin (for the thumbnail daemon)
 Add the line:
 
 export GTK_USE_PORTAL=1
