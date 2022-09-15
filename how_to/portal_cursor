@@ -1,0 +1,12 @@
+Problem: when opening KDE portal from Firefox (or other KDE/Qt application)
+the cursor icons change
+
+Solution (on Ubuntu): edit the file /usr/share/icons/default/index.theme
+to contain the following:
+
+[Icon Theme]
+Name=Breeze
+Inherits=DMZ-Black
+
+(DMZ-Black looks similar enough to the Adwaita theme)
+
