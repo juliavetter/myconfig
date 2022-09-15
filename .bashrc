@@ -76,6 +76,8 @@ shopt -s expand_aliases
 # Enable history appending instead of overwriting.  #139609
 shopt -s histappend
 
+export HISTCONTROL=ignoredups
+
 #change cursor to unblinking full block in tty
 if [ "$XDG_SESSION_TYPE" = tty ]; then
  echo -ne "\e[?16;7;112c"
@@ -92,5 +94,4 @@ if [ -f ~/.bash_functions ]; then
 fi
 
 export EDITOR="vim"
-export QT_STYLE_OVERRIDE="kvantum"
 
