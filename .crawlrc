@@ -2,7 +2,7 @@
 # default 33, max 81
 view_max_width = 80
 # default 21, max 71
-view_max_height = 20
+#view_max_height = 40
 
 # tiles scaling
 tile_cell_pixels = 48
